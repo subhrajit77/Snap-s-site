@@ -158,17 +158,56 @@ nav{
     border-radius: 10px;
 }
 .article{
-    background-color: burlywood;
-    margin-top: 50px;
+    /* background-color: burlywood; */
+    margin-top: 20px;
     display: flex;
     height: auto;
 }
 .left{
     flex: 1; /* Take up 50% of the container width */
-  background-color: #15fab5;
+  /* background-color: #15fab5; */
+  padding: 50px 80px;
 }
 .right{
-    flex: 1; /* Take up 50% of the container width */
-    background-color: #e208d7; /* Optional: Background color for visual separation */
+    flex: 0.9; /* Take up 50% of the container width */
+    /* background-color: #e208d7; Optional: Background color for visual separation */
+  }
+  .left h1{
+    font-family:"Epilogue", sans-serif;
+    padding: 0px 30px;
+    font-weight: 700;
+    font-size: 80px;
+  }
+  .left p{
+    font-family:"Epilogue", sans-serif;
+    display: block;
+    margin-top: 35px;
+    padding: 0px 30px;
+    font-weight: 400;
+    font-size: 18px;
+    color: hsl(0, 0%, 41%);
+    margin-right: 200px;
+  }
+  .left button{
+    font-family:"Epilogue", sans-serif;
+    display: block;
+    margin-top: 35px;
+    padding: 12px 30px;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 30px;
+    background-color: hsl(0, 3%, 6%);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .left a{
+    color: hsl(0, 0%, 88%);
+    text-decoration: none;
+  }
+
+  .right img{
+    width: 80%;
+    height: 90%;
   }
 
