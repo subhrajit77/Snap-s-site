@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
@@ -17,7 +18,17 @@
       <div class="nav-left">
         <img src="./images/logo.svg" alt="logo" />
         <ul>
-          <li><a href="#">Features</a></li>
+          <div class="dropdown">
+            <button class="dropbtn">Feature 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div> 
+          
           <li><a href="#">Company</a></li>
           <li><a href="#">Careers</a></li>
           <li><a href="#">About</a></li>
