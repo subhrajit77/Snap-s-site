@@ -104,7 +104,7 @@ nav{
   
   .dropdown-content a {
     color: black;
-    padding: 8px 35px;
+    padding: 10px 35px;
     font-family:"Epilogue", sans-serif;
     font-size: 15px;
     text-decoration: none;
@@ -123,9 +123,7 @@ nav{
     margin-right: 8px;
   }
   
-  .dropdown-content a:hover {
-    /* background-color: #ddd; */
-  }
+  
   
   /* .dropdown:hover .dropdown-content {
     display: block;
@@ -137,7 +135,8 @@ nav{
 .nav-right{
     /* background-color: blue; */
     display: flex;
-    padding: 10px 20px;
+    
+    padding: 10px 30px;
     margin-right: 30px;
     /* border: 1px solid black; */
     /* border-radius: 10px; */
@@ -158,4 +157,18 @@ nav{
     border: 1px solid black;
     border-radius: 10px;
 }
+.article{
+    background-color: burlywood;
+    margin-top: 50px;
+    display: flex;
+    height: auto;
+}
+.left{
+    flex: 1; /* Take up 50% of the container width */
+  background-color: #15fab5;
+}
+.right{
+    flex: 1; /* Take up 50% of the container width */
+    background-color: #e208d7; /* Optional: Background color for visual separation */
+  }
 
