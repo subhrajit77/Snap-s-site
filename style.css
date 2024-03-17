@@ -7,6 +7,10 @@
 }
 body{
      background-color: hsl(0, 0%, 98%);
+     display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:100vh; 
 }
 
 nav{
@@ -14,7 +18,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 30px;
+    padding: 20.1px 30px;
     /* background-color: #69616128; */
     height: 30px;
     /* color: rgb(26, 17, 17); */
