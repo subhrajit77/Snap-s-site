@@ -202,7 +202,7 @@ nav{
     margin-left: 30px;
     background-color: hsl(0, 3%, 6%);
     border: none;
-    border-radius: 10px;
+    border-radius: 10.1px;
     cursor: pointer;
   }
   .left a{
