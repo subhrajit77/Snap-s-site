@@ -1,0 +1,80 @@
+/* Media query for mobile screens */
+@media screen and (max-width: 479px) {
+    body {
+      align-items: flex-start; /* Align items to the start of the flex container */
+    }
+  
+    nav {
+      flex-direction: column; /* Change navigation layout to column */
+      padding: 10px; /* Adjust padding */
+    }
+  
+    .nav-left {
+      width: 100%; /* Take up full width */
+      margin-bottom: 10px; /* Add margin for separation */
+    }
+  
+    .nav-left ul {
+        display: none;
+      width: 100%; /* Take up full width */
+      margin-right: 0; /* Remove right margin */
+      padding: 0; /* Remove padding */
+    }
+  
+    .nav-left ul li {
+      width: 100%; /* Take up full width */
+      justify-content: center; /* Center align items */
+    }
+  
+    .nav-left ul li a {
+      padding: 10px; /* Adjust padding */
+    }
+  
+    .nav-right {
+      display: none;
+      /* width: 100%;
+      margin-right: 0; 
+      justify-content: center;  */
+    }
+  
+    .article {
+      flex-direction: column; /* Change article layout to column */
+    }
+  
+    .left {
+      padding: 20px; /* Adjust padding */
+      margin-left: 0; /* Remove left margin */
+      margin-right: 0; /* Remove right margin */
+      text-align: center; /* Center align text */
+    }
+  
+    .left h1 {
+      font-size: 40px; /* Adjust font size */
+      margin-left: 0; /* Remove left margin */
+    }
+  
+    .left p {
+      margin-left: 0; /* Remove left margin */
+      margin-right: 0; /* Remove right margin */
+      width: auto; /* Set width to auto */
+    }
+  
+    .left button {
+      margin-left: 0; /* Remove left margin */
+    }
+  
+    .left .brands {
+      margin-left: 0; /* Remove left margin */
+    }
+  
+    .right img {
+      width: 100%; /* Adjust image width */
+      height: auto; /* Maintain aspect ratio */
+    }
+  
+    .brands {
+      flex-direction: column; /* Change brands layout to column */
+      align-items: center; /* Center align items */
+      max-width: 100%; /* Adjust max-width */
+    }
+  }
