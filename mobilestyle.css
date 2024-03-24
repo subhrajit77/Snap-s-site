@@ -42,6 +42,7 @@
     }
   
     .left {
+        display: none;
       padding: 20px; /* Adjust padding */
       margin-left: 0; /* Remove left margin */
       margin-right: 0; /* Remove right margin */
@@ -66,8 +67,11 @@
     .left .brands {
       margin-left: 0; /* Remove left margin */
     }
-  
-    .right img {
+    #desktop{
+    display: none;
+    }
+    .right #mobile {
+      display: flex;
       width: 100%; /* Adjust image width */
       height: auto; /* Maintain aspect ratio */
     }

@@ -234,6 +234,9 @@ nav{
     width: 70%;
     height: 79%;
   }
+  #mobile{
+    display: none;
+  }
   .brands{
     /* border: 2px solid rgb(0, 0, 0); */
     max-width:450px;
