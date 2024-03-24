@@ -141,7 +141,7 @@ nav{
     display: flex;
     
     padding: 10px 30px;
-    margin-right: 30px;
+    margin-right: -29px;
     /* border: 1px solid black; */
     /* border-radius: 10px; */
 }
@@ -151,6 +151,7 @@ nav{
     display: flex;
     justify-content: center;
     padding: 7px 15px;
+    
     text-decoration: none;
     font-family:"Epilogue", sans-serif;
     font-size:15px ;
@@ -170,7 +171,7 @@ nav{
 .left{
     flex: 1; /* Take up 50% of the container width */
   /* background-color: #15fab5; */
-  padding: 50px 80px;
+  padding: 20px 70px;
 }
 .right{
     flex: 0.9; /* Take up 50% of the container width */
@@ -178,19 +179,23 @@ nav{
   }
   .left h1{
     font-family:"Epilogue", sans-serif;
-    padding: 0px 30px;
+    padding: 10px 25px;
     font-weight: 700;
-    font-size: 80px;
+    font-size: 65px;
+    margin-left: 16%;
   }
   .left p{
     font-family:"Epilogue", sans-serif;
     display: block;
-    margin-top: 35px;
-    padding: 0px 30px;
+    margin-top: 15px;
+    margin-left: 15%;
+    width: 390px;
+    padding: 0px 35px;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
     color: hsl(0, 0%, 41%);
-    margin-right: 200px;
+    margin-right: 190px;
+    /* background-color: rgba(0, 0, 255, 0.301); */
   }
   .left button{
     font-family:"Epilogue", sans-serif;
@@ -199,7 +204,7 @@ nav{
     padding: 12px 30px;
     font-weight: 700;
     font-size: 18px;
-    margin-left: 30px;
+    margin-left: 20%;
     background-color: hsl(0, 3%, 6%);
     border: none;
     border-radius: 10.1px;
@@ -216,9 +221,21 @@ nav{
     color: hsl(0, 0%, 88%);
     text-decoration: none;
   }
+  .left .brands{
+    margin: 50px 0px;
+    margin-left: 16%;
+  }
 
   .right img{
-    width: 80%;
-    height: 90%;
+    width: 70%;
+    height: 79%;
+  }
+  .brands{
+    /* border: 2px solid rgb(0, 0, 0); */
+    max-width:450px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
   }
 
