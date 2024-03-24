@@ -203,6 +203,13 @@ nav{
     background-color: hsl(0, 3%, 6%);
     border: none;
     border-radius: 10.1px;
+    /* cursor: pointer; */
+  }
+  .left button:hover{
+    font: black;
+    background-color: hsl(0, 14%, 99%);
+    border: 2px solid black;
+    border-radius: 10.1px;
     cursor: pointer;
   }
   .left a{
